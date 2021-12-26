@@ -4,7 +4,7 @@ $(window).on('scroll',function () {
             scrollTop, scrollHeight, clientHeight
         })
 
-        if (scrollTop + clientHeight >= scrollHeight){
+        if (scrollTop + clientHeight >= scrollHeight - 5){
             $('#test').append(`new html`);
         }
     })
